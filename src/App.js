@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import {Routes, Route} from "react-router-dom"
+/*
+// components
+import Banner from './components/Banner';
+import Header from './components/Header';
+import Nav from './components/Nav';
+import About from './components/About';
+import Services from './components/Services';
+import Work from './components/Work';
+import Contact from './components/Contact';
+*/
+import Home from "./components/Home/Home"
+import Contacter from "./components/Contact/Contacter"
+import Bonus from "./components/Route1/Bonus"
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='bg-site bg-no-repeat bg-cover overflow-hidden'>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Contact/Contacter" element={<Contacter />} />
+        <Route path="/Route1/Bonus" element={<Bonus />} />
+      </Routes>
+      <div className='h-[4000px]'></div>
     </div>
   );
-}
+};
 
 export default App;
