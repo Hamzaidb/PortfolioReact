@@ -18,7 +18,7 @@ const App = () => {
   return (
     <div className='bg-site bg-no-repeat bg-cover overflow-hidden'>
       <Routes>
-        <Route path="/PortfolioReact" element={<Home />} />
+        <Route path="/PortfolioReact/" element={<Home />} />
         <Route path="/PortfolioReact/Contact/Contacter" element={<Contacter />} />
         <Route path="/PortfolioReact/Route1/Bonus" element={<Bonus />} />
       </Routes>
