@@ -4,7 +4,8 @@ import {motion} from 'framer-motion'
 //variants
 import {fadeIn} from '../variants'
 
-import Contactform from './Contactform'
+
+import Form from './Form'
 
 
 const Contact = () => {
@@ -29,7 +30,7 @@ const Contact = () => {
         </div>
       </motion.div>
       {/* form*/}
-      <Contactform />
+      <Form />
     </div>
    </div>
    
