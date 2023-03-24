@@ -1,4 +1,5 @@
 import React from 'react'
+import { app } from "./firebase";
 //import {Routes, Route} from "react-router-dom"
 // components
 import Banner from './Banner';
