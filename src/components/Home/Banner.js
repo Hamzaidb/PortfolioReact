@@ -38,7 +38,7 @@ const Banner = () => {
           viewport={{once: false, amount: 0.7 }} 
           className='mb-6 text-[36px] lg:text-[60px] 
           font-secondary font-semibold uppercase leading-[1]' >
-            <span className='text-white mr-4'>Je suis un </span>
+            <span className='text-white mr-4'>Je suis un</span>
             <TypeAnimation 
             sequence={[
               'Developpeur',
@@ -61,7 +61,8 @@ const Banner = () => {
           whileInView={'show'} 
           viewport={{once: false, amount: 0.7 }}
           className='mb-8 max-w-lg mx-auto lg:mx-0'>
-            Lorem dedzzddzdzdzdzez
+            Etudiant en BUT Métiers du Multimedia et de l'Internet<br />
+            En recherche de stage dans le domaine du Développement Web
           </motion.p>
           <motion.div 
           variants={fadeIn('up', 0.6)}

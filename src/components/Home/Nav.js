@@ -68,15 +68,6 @@ const Nav = () => {
           <BsChatSquareText />
       </Link>
 
-      <Link 
-      to='page' 
-      activeClass='active'
-      smooth={true}
-      spy={true}
-      className='cursor-pointer w-[60px]
-       flex item-center justify-center'>
-          <BsChatSquareText />
-      </Link>
       </div>
     </div>
   </nav>
