@@ -2,6 +2,10 @@ import { useState } from "react";
 import React from 'react';
 import { motion } from 'framer-motion';
 import { fadeIn } from "../variants";
+import { getFirestore, collection, addDoc } from "firebase/firestore";
+import { app } from "./firebase";
+
+
 
 export const Form = () => {
     const formInitialDetails = {
@@ -25,7 +29,9 @@ export const Form = () => {
     const handleSubmit =  async (e) => {
         e.preventDefault();
         setButtonText('Sending...');
-        let response = await fetch("https://hamzaidb.github.io/PortfolioReact/", {
+        const db = getFirestore();
+        await addDoc(collection(db, "contact"), formDetails);
+        let response = await fetch("https://portfolio-app-d8044.firebaseio.com/contact.json", {
             method:"POST",
             headers: {
                 "Content-Type": "Application/json;charset=utf-8",
@@ -83,7 +89,7 @@ export const Form = () => {
         
         <button className='btn btn-lg' 
         type="submit">
-            Submit
+            {buttonText}
         </button>
         
         { status.message &&
