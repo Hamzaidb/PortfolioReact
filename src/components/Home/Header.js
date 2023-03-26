@@ -16,7 +16,7 @@ const Header = () => {
         <Link
       to='contact'
       className='btn btn-sm mr-10 self-center'>
-            Contact me
+            Contactez moi
             </Link>
         
         </div>

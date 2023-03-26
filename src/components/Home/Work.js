@@ -28,8 +28,8 @@ const Work = () => {
           {/* text */}
           <div>
               <h2 className='h2 leading-tight text-accent'>
-                My latest <br />
-              Works
+              Mes derniers  <br />
+              travaux
               </h2>
               <p className='max-w-sm mb-16'>
                 Voici quelques exemples de mes travaux. <br />

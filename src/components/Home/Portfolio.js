@@ -37,7 +37,7 @@ export default function Portfolio() {
         <Link
       to='/PortfolioReact'
       className='btn btn-sm mr-10 self-center'>
-            Contact me
+            Contactez moi
             </Link>
         
         </div>
@@ -48,7 +48,7 @@ export default function Portfolio() {
     <section>
     <div className='container px-6 py-10 mx-auto'>
         <h1 className='h2 text-center leading-tight text-accent'>
-        Latest Work
+        Mes derniers travaux
         </h1>
 
 
