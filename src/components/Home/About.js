@@ -36,7 +36,7 @@ mix-blend-lighten bg-top'></motion.div>
         whileInView={"show"}
         viewport={{ once: false, amount: 0.3 }}
         className='flex-1'>
-          <h2 className='h2 text-accent'>About me.</h2>
+          <h2 className='h2 text-accent'>À propos</h2>
           <h3 className='h3 mb-4'>
             Futur Développeur Web
           </h3>
