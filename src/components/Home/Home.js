@@ -9,6 +9,7 @@ import About from './About';
 import Services from './Services';
 import Work from './Work';
 import Contact from './Contact';
+import Footer from './Footer';
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
       <Services />
       <Work />
       <Contact />
-      
+      <Footer />
     </div>
   )
 }

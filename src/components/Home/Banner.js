@@ -2,7 +2,7 @@ import React from 'react';
 // images
 import Image from '../assets/avataar.svg.svg';
 // icons
-import {FaGithub, FaYoutube, FaDribbble } from 'react-icons/fa'
+import {FaGithub, FaLinkedinIn, FaWordpressSimple } from 'react-icons/fa'
 // type animation
 import {TypeAnimation} from 
 'react-type-animation';
@@ -10,6 +10,8 @@ import {TypeAnimation} from
 import {motion} from 'framer-motion';
 // variants
 import { fadeIn} from '../variants';
+
+import { Link } from 'react-scroll';
 
 const Banner = () => {
   return (
@@ -29,7 +31,7 @@ const Banner = () => {
           viewport={{once: false, amount: 0.7 }}
           className='text-[55px] font-bold leading-[0.8] 
           lg:text[110]'>
-          HAMZA <span>IDB</span>
+          HAMZA <span>IDBOUIGUIGUANE</span>
           </motion.h1>
           <motion.div
           variants={fadeIn('up', 0.4)}
@@ -43,7 +45,7 @@ const Banner = () => {
             sequence={[
               'Developpeur',
               2000,
-              'Designer',
+              'Stagiaire',
               2000,
               'Etudiant',
               2000,
@@ -61,8 +63,8 @@ const Banner = () => {
           whileInView={'show'} 
           viewport={{once: false, amount: 0.7 }}
           className='mb-8 max-w-lg mx-auto lg:mx-0'>
-            Etudiant en BUT Métiers du Multimedia et de l'Internet<br />
-            En recherche de stage dans le domaine du Développement Web
+            Etudiant en BUT Métiers du Multimedia et de l'Internet.<br />
+            En recherche de stage dans le domaine du Développement Web.
           </motion.p>
           <motion.div 
           variants={fadeIn('up', 0.6)}
@@ -71,9 +73,11 @@ const Banner = () => {
           viewport={{once: false, amount: 0.7 }}
           className='flex max-w-max gap-x-6 items-center mb-12 mx-auto
           lg:mx-0'>
-            <button className='btn btn-lg'>Contact me</button>
-            <a href="#" className='text-gradient btn-link'>
-              My portfolio</a>
+            <a href="https://drive.google.com/file/d/1KDJHxogzd8i0nPT-TcGR7mbCTENtWcBZ/view?usp=sharing" 
+          class="text-gradient btn-link">Télécharger le CV</a>
+
+            <Link to="work" className='text-gradient btn-link'>
+              My portfolio</Link>
           </motion.div>
           {/* socials */}
           <motion.div 
@@ -83,14 +87,14 @@ const Banner = () => {
           viewport={{once: false, amount: 0.7 }}
           className='flex text-[20px] gap-x-6 max-w-max mx-auto
           lg:mx-0'>
-            <a href="#">
-              <FaYoutube />
+            <a href="https://www.linkedin.com/in/hamza-idbouiguiguane/">
+              <FaLinkedinIn />
               </a>
-            <a href="#">
+            <a href="https://github.com/Hamzaidb">
               <FaGithub />
               </a>
-            <a href="#">
-              <FaDribbble />
+            <a href="https://idbouiguiguane.alwaysdata.net/">
+              <FaWordpressSimple />
             </a>
           </motion.div>
         </div>

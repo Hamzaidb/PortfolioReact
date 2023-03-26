@@ -6,24 +6,24 @@ import {fadeIn} from '../variants'
 
 const services = [
   {
-    name: 'UI/UX Design',
+    name: 'Développement Front',
     description:
-    'dzjedzoezjiizdjoideojiziojzodojedoezzejodj',
+    'Réaliser un site web responsive et interactif avec HTML, CSS et Javascript. Réaliser un site web Wordpress. Concevoir une application React',
   },
   {
-    name: 'Development',
+    name: 'Développement Back et Base de données',
     description:
-    'dzjedzoezjiizdjoideojiziojzodojedoezzejodj',
+    'Créer, gérer et exploiter une base de données avec MySQL et phpmyadmin. Dynamiser un site web avec PHP',
   },
   {
-    name: 'Bdd',
+    name: 'UX/UI Design',
     description:
-    'dzjedzoezjiizdjoideojiziojzodojedoezzejodj',
+    'Concevoir une expérience utilisateur optimale et une interface répondant aux besoins des utilisateurs',
   },
   {
-    name: 'Digital',
+    name: 'Création numérique',
     description:
-    'dzjedzoezjiizdjoideojiziojzodojedoezzejodj',
+    'Réaliser des montages (photo et vidéo), des graphiques et des illustrations avec la suite Adobe. Produire une identité visuelle',
   },
 ]
 
@@ -39,12 +39,12 @@ const Services = () => {
       initial="hidden" 
       whileInView={'show'} 
       viewport={{once: false, amount: 0.7 }}
-      className='flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0'>
+      className='flex-1 lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0'>
         <h2 className='h2 text-accent mb-6'>Mes compétences</h2>
         <h3 className='h3 max-w-[455px] mb-16'>
-          zdzkzdokzokdopezo deopdedz pokekoez
+          J'ai un profil polyvalent pouvant exercer dans plusieurs domaines.
         </h3>
-        <button className='btn btn-sm'>cdcd</button>
+
       </motion.div>
       {/* services */}
       <motion.div 

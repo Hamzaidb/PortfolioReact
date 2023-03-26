@@ -4,9 +4,12 @@ import {motion} from 'framer-motion'
 //variants
 import { fadeIn } from '../variants';
 //img
-import Img1 from '../assets/portfolio-img1.png';
-import Img2 from '../assets/portfolio-img2.png';
-import Img3 from '../assets/portfolio-img3.png';
+import Img1 from '../assets/cartejs.jpg';
+import Img2 from '../assets/webdoc.jpg';
+import Img3 from '../assets/crud.jpg';
+
+import { Link, Outlet } from 'react-router-dom';
+import Portfolio from './Portfolio';
 
 const Work = () => {
   return (
@@ -29,9 +32,13 @@ const Work = () => {
               Works
               </h2>
               <p className='max-w-sm mb-16'>
-                Loremhggfh gfgfg
+                Voici quelques exemples de mes travaux. <br />
+                Cliquez sur le bouton ci-dessous pour en savoir plus.
               </p>
-              <button className='btn btn-sm'>View all projects</button>
+              <Link
+              to= "/Portfolio"
+              className='text-gradient btn-link'>En savoir plus
+              </Link>
           </div>
           
           {/* image */}
@@ -46,20 +53,20 @@ const Work = () => {
             {/* img */}
             <img className='group-hover:scale-125 
             transition-all duration-500' 
-            src={Img1} 
+            src={Img3} 
             alt='' />
             {/* pretitle */}
             <div className='absolute -bottom-full left-12
             group-hover:bottom-24 transition-all 
             duration-500 z-50'>
               <span className='text-gradient'>
-              UI/UX design</span>
+              Développement Back, Base de données, Front</span>
             </div>
             {/* title */}
             <div className='absolute -bottom-full left-12
             group-hover:bottom-14 transition-all 
             duration-700 z-50'>
-              <span className='text-3xl text-white'>Project title</span>
+              <span className='text-3xl text-white'>Back-Office/CRUD en PHP</span>
             </div>
           </div>
         </motion.div>
@@ -81,20 +88,20 @@ const Work = () => {
             {/* img */}
             <img className='group-hover:scale-125 
             transition-all duration-500' 
-            src={Img2} 
+            src={Img1} 
             alt='' />
             {/* pretitle */}
             <div className='absolute -bottom-full left-12
             group-hover:bottom-24 transition-all 
             duration-500 z-50'>
               <span className='text-gradient'>
-              UI/UX design</span>
+              Développement Front</span>
             </div>
             {/* title */}
             <div className='absolute -bottom-full left-12
             group-hover:bottom-14 transition-all 
             duration-700 z-50'>
-              <span className='text-3xl text-white'>Project title</span>
+              <span className='text-3xl text-white'>Application intéractive en Javascript</span>
             </div>
           </div>
           {/* image */}
@@ -109,20 +116,20 @@ const Work = () => {
             {/* img */}
             <img className='group-hover:scale-125 
             transition-all duration-500' 
-            src={Img3} 
+            src={Img2} 
             alt='' />
             {/* pretitle */}
             <div className='absolute -bottom-full left-12
             group-hover:bottom-24 transition-all 
             duration-500 z-50'>
               <span className='text-gradient'>
-              UI/UX design</span>
+              UI/UX design, Production audiovisuelle, Création numérique</span>
             </div>
             {/* title */}
             <div className='absolute -bottom-full left-12
             group-hover:bottom-14 transition-all 
             duration-700 z-50'>
-              <span className='text-3xl text-white'>Project title</span>
+              <span className='text-3xl text-white'>Webdocumentaire autour du BUT MMI</span>
             </div>
           </div>
         </motion.div>
