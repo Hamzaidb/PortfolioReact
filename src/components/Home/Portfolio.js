@@ -12,6 +12,7 @@ import Img1 from '../assets/cartejs.jpg';
 import Img2 from '../assets/crud.jpg';
 import Img3 from '../assets/webdoc.jpg';
 import Img4 from '../assets/openspirit.png';
+import Img5 from '../assets/landing.jpg';
 
 import { useState } from "react";
 import Footer from './Footer';
@@ -55,10 +56,33 @@ export default function Portfolio() {
         
 
         <section className='mt-8 space-y-8 lg:mt-12'>
+        <section className='lg:flex lg:items-center'>
+                <div className='lg:w-1/2'>
+                    <p className='text-lg tracking-wider text-blue-500 uppercase dark:text-blue-400'>
+                        Développement Front</p>
+                    <h2 className='mt-1 text-2xl font-semibold
+                     text-gray-800 capitalize dark:text-white'> Intégration d'une Landing Page responsive et intéractif</h2>
+                    
+                    <p className='mt-5'>Afin de me former davantage à l'UI et au Front-end, j'ai décidé de créer un design simple de la partie principale d'une Landing page.<br />
+                    J'ai par ensuite intégré le design en HTML, CSS et du Javascript pour rendre le site intéractif et animé </p>
+<p className='mt-2'>Langage utilisé : HTML, CSS,  Javascript</p>
+<p className='mt-2'>Logiciel utilisé : Visual Studio Code </p>
+
+<p className='mt-2'>Lien du site : https://hamzaidb.github.io/Landing/</p>
+            
+                </div>
+
+                <div className='mt-4 lg:w-1/2 lg:mt-0'>
+                    <img className='object-cover w-full h-64 rounded-lg md:h-96'
+                        src={Img5}
+                        alt="" />
+                </div>
+            </section>
+
             <section className='lg:flex lg:items-center'>
                 <div className='lg:w-1/2'>
                     <p className='text-lg tracking-wider text-blue-500 uppercase dark:text-blue-400'>
-                        Projet universitaire</p>
+                        Développement front</p>
                     <h2 className='mt-1 text-2xl font-semibold
                      text-gray-800 capitalize dark:text-white'> Une application interactive en Javascript</h2>
                     
@@ -79,14 +103,13 @@ export default function Portfolio() {
 
             <section className='lg:flex lg:items-center'>
                 <div className='lg:w-1/2'>
-                    <p className='text-lg tracking-wider text-blue-500 uppercase dark:text-blue-400'>Projet universitaire</p>
+                    <p className='text-lg tracking-wider text-blue-500 uppercase dark:text-blue-400'>Design graphique, stratégie de communication, audiovisuel, développement </p>
                     <h2 className='mt-2 text-2xl font-semibold text-gray-800 capitalize dark:text-white'>
                         Conception d'une agence et sa communication</h2>
                         <p className='mt-5'>Projet intégrateur de fin de première année où nous avons réalisé une agence de communication ainsi que son identité visuelle, un court métrage promotionnel, sa stratégie de communication ainsi qu'un site web Wordpress.</p>
 
 <p className='mt-2'>Logiciel utilisé : Adobe InDesign, Adobe Premiere Pro, Adobe Illustrator, Wordpress </p>
 
-<p className='mt-2'>Lien du site : https://hamzaidb.github.io/SAE-303/index.html</p>
                 </div>
 
                 <div className='mt-4 lg:w-1/2 lg:mt-0'>

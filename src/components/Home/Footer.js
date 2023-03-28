@@ -11,7 +11,7 @@ export default function Footer() {
             <img className='w-auto h-7' src={Logo} alt="" />
         </a>
 
-        <p className='text-sm text-gray-600 dark:text-gray-300'>© Copyright 2021. All Rights Reserved.</p>
+        <p className='text-sm text-gray-600 dark:text-gray-300'>© 2023</p>
 
         <div className='flex -mx-2'>
         

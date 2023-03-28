@@ -5,7 +5,7 @@ import {motion} from 'framer-motion'
 import { fadeIn } from '../variants';
 //img
 import Img1 from '../assets/cartejs.jpg';
-import Img2 from '../assets/webdoc.jpg';
+import Img2 from '../assets/landing.jpg';
 import Img3 from '../assets/crud.jpg';
 
 import { Link, Outlet } from 'react-router-dom';
@@ -123,13 +123,13 @@ const Work = () => {
             group-hover:bottom-24 transition-all 
             duration-500 z-50'>
               <span className='text-gradient'>
-              UI/UX design, Production audiovisuelle, Création numérique</span>
+              UI/UX design, Développement Front</span>
             </div>
             {/* title */}
             <div className='absolute -bottom-full left-12
-            group-hover:bottom-14 transition-all 
+            group-hover:bottom-6 transition-all 
             duration-700 z-50'>
-              <span className='text-3xl text-white'>Webdocumentaire autour du BUT MMI</span>
+              <span className='text-3xl text-white'>Intégration d'une landing page<br /> intéractive</span>
             </div>
           </div>
         </motion.div>
