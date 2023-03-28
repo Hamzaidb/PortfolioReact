@@ -68,7 +68,7 @@ export default function Portfolio() {
 <p className='mt-2'>Langage utilisé : HTML, CSS,  Javascript</p>
 <p className='mt-2'>Logiciel utilisé : Visual Studio Code </p>
 
-<p className='mt-2'>Lien du site : https://hamzaidb.github.io/Landing/</p>
+<p className='mt-2'>Lien du site : https://hamzaidb.github.io/Landing_page/</p>
             
                 </div>
 
